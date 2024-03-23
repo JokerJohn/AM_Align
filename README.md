@@ -1,16 +1,14 @@
 
 
-# AM-Align: Accelerometer-Magnetometer Alignment for LIO Initialization
+# AM-Align: Globally Optimal Estimation of Accelerometer-Magnetometer Misalignment
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/AM-Align.svg)](https://github.com/JokerJohn/AM-Align/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/AM-Align.svg)](https://github.com/JokerJohn/AM-Align/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/JokerJohn/AM_Align.svg)](https://github.com/JokerJohn/AM_Align/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/JokerJohn/AM_Align.svg)](https://github.com/JokerJohn/AM_Align/issues)
 
-AM-Align is a globally optimal method for solving the accelerometer-magnetometer alignment problem, specifically designed to be easily integrated into the initialization process of LiDAR-Inertial Odometry (LIO) systems. The package provides a complete set of algorithms, including intrinsic calibration, making it a convenient solution for improving the accuracy and robustness of LIO.
+AM-Align is a globally optimal method for solving the accelerometer-magnetometer(AM) alignment problem. The package provides a complete set of algorithms, including intrinsic calibration, making it a convenient solution for improving the accuracy and robustness of inertial navigation systems.
 
-<div align="center">
 ![image-20240323132209365](./README/image-20240323132209365.png)
-</div>
 
 
 | Intrinsic calibration                                        | AM-Align                                                     |
