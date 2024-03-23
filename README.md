@@ -93,19 +93,16 @@ If you use AM-Align in your research, please cite our paper:
 ```bibtex
 @article{xhu2024amalign,
   title={AM-Align: Globally Optimal Accelerometer-Magnetometer Alignment for LIO Initialization},
-  author={X. Hu, J. Wu, B. Xue, Y. Zhu, M. Jia,Y. Jiang, Y. Qi, P. Tan, W. Zhang},
+  author={X. Hu*, J. Wu*, B. Xue, Y. Zhu, M. Jia,Y. Jiang, Y. Qi, P. Tan, W. Zhang},
   journal={arxiv},
   year={2024},
   publisher={arxiv}
 }
 ```
 
-
 ## Acknowledgments
 
-We would like to thank the following authors for their contributions and support:
-
-- [Jin Wu](https://github.com/zarathustr)
+We would like to thank the following authors for their contributions and support.
 
 ## Contact
 
