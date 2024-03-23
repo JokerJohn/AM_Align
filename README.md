@@ -18,9 +18,13 @@ AM-Align is a globally optimal method for solving the accelerometer-magnetometer
 | ![image-20240323132150859](./README/image-20240323132150859.png) | ![image-20240323132242986](./README/image-20240323132242986.png) |
 
 <div align="center">
+
 ![image-20240323133201734](./README/image-20240323133201734.png)
 </div>
 
+## News
+
+- **2024/03/20**: Submitted to [ICRA 2024 Workshop on Filed Robotics](https://norlab-ulaval.github.io/workshop_field_robotics_icra2024/).
 
 ## Features
 
@@ -95,9 +99,7 @@ If you use AM-Align in your research, please cite our paper:
   publisher={arxiv}
 }
 ```
-## News
 
-- **2024/03/20**: Accepted by [ICRA 2024 Workshop on Filed Robotics](https://norlab-ulaval.github.io/workshop_field_robotics_icra2024/).
 
 ## Acknowledgments
 
