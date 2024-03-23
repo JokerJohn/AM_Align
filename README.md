@@ -1,17 +1,26 @@
-# AM_Align
-AM-Align: Globally Optimal Estimation of Accelerometer-Magnetometer Misalignment
 
-![image-20240320233611725](./README/image-20240320233611725.png)
-
-![image-20240320233625236](./README/image-20240320233625236.png)
 
 # AM-Align: Accelerometer-Magnetometer Alignment for LIO Initialization
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/AM-Align.svg)](https://github.com/yourusername/AM-Align/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/AM-Align.svg)](https://github.com/yourusername/AM-Align/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/AM-Align.svg)](https://github.com/JokerJohn/AM-Align/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/yourusername/AM-Align.svg)](https://github.com/JokerJohn/AM-Align/issues)
 
 AM-Align is a globally optimal method for solving the accelerometer-magnetometer alignment problem, specifically designed to be easily integrated into the initialization process of LiDAR-Inertial Odometry (LIO) systems. The package provides a complete set of algorithms, including intrinsic calibration, making it a convenient solution for improving the accuracy and robustness of LIO.
+
+<div align="center">
+![image-20240323132209365](./README/image-20240323132209365.png)
+</div>
+
+
+| Intrinsic calibration                                        | AM-Align                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![image-20240323132150859](./README/image-20240323132150859.png) | ![image-20240323132242986](./README/image-20240323132242986.png) |
+
+<div align="center">
+
+![image-20240323133201734](./README/image-20240323133201734.png)
+</div>
 
 ## Features
 
@@ -19,9 +28,6 @@ AM-Align is a globally optimal method for solving the accelerometer-magnetometer
 - Robust to insufficient and outlier-corrupted data
 - Requires only four pairs of measurements for complete calibration
 - Efficient and accurate computation using the polynomial eigenvalue technique
-- Intrinsic calibration algorithms for accelerometer and magnetometer
-- Seamless integration into LIO initialization process
-- Validated through extensive simulations and real-world experiments
 
 ## Prerequisites
 
@@ -34,7 +40,7 @@ AM-Align is a globally optimal method for solving the accelerometer-magnetometer
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/AM-Align.git
+git clone https://github.com/JokerJohn/AM_Align
 ```
 
 2. Build the project:
@@ -81,29 +87,21 @@ AM-Align is released under the [MIT License](LICENSE).
 If you use AM-Align in your research, please cite our paper:
 
 ```bibtex
-@article{yourlastname2023amalign,
+@article{xhu2024amalign,
   title={AM-Align: Globally Optimal Accelerometer-Magnetometer Alignment for LIO Initialization},
-  author={Your Name and Co-authors},
-  journal={Your Journal Name},
-  year={2023},
-  publisher={Your Publisher}
+  author={X. Hu, J. Wu, B. Xue, Y. Zhu, M. Jia,Y. Jiang, Y. Qi, P. Tan, W. Zhang},
+  journal={arxiv},
+  year={2024},
+  publisher={arxiv}
 }
 ```
 
 ## Acknowledgments
 
-We would like to thank the following individuals and organizations for their contributions and support:
+We would like to thank the following authors for their contributions and support:
 
-- [Contributor 1](https://github.com/contributor1)
-- [Contributor 2](https://github.com/contributor2)
-- [Organization 1](https://organization1.com)
+- [Jin Wu](https://github.com/zarathustr)
 
 ## Contact
 
-For questions, comments, or suggestions, please contact:
-
-Your Name
-Your Affiliation
-Your Email Address
-
-Project Link: [https://github.com/yourusername/AM-Align](https://github.com/yourusername/AM-Align)
+For questions, comments, or suggestions, please contact xhubd@connect.ust.hk.
